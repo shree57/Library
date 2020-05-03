@@ -1,0 +1,22 @@
+ 
+<div class="col" >
+  <table >
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Auther</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let book of books">
+        <td>{{book.id}}</td>
+        <td>{{book.name}}</td>
+        <td>{{book.auther}}</td>
+        <td>{{book.price}}</td>
+       
+      </tr>
+    </tbody>
+  </table>
+</div>

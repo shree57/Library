@@ -1,0 +1,9 @@
+table, th, td {
+    border: 1px solid black;
+    align-items: center;
+  }
+
+  .col {
+    padding: 70px 0;
+    text-align: center;
+  }

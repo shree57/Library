@@ -1,0 +1,19 @@
+<div class="col" >
+  <table >
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Location</th>
+        <th>Books</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let lib of libs">
+        <td>{{lib.id}}</td>
+        <td>{{lib.location}}</td>
+        <td><button type="button" class="btn btn-primary" (click)="viewbooks(lib.book)">Books</button></td>
+      
+      </tr>
+    </tbody>
+  </table>
+</div>
